@@ -47,17 +47,17 @@ body {
     border-radius: 0.5px;
 }
 .minutes{
-    width: 40%;
+    width: 35%;
     height: 5px;
-    left: 10%;
+    left: 15%;
     background-color: gray;
     z-index: 1;
     border-radius: 0.5px;    
 }
 .hours{
-    width: 30%;
+    width: 25%;
     height: 5px;
-    left: 20%;
+    left: 25%;
     background-color: black;
     z-index: 2;
     border-radius: 0.5px;
