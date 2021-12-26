@@ -41,7 +41,7 @@ body {
   height: 3px;
   left: 10%;
   background-color: red;
-  z-index: 3;
+  z-index: 1;
   border-radius: 0.5px;
 }
 .minutes {
@@ -49,7 +49,7 @@ body {
   height: 5px;
   left: 15%;
   background-color: gray;
-  z-index: 1;
+  z-index: 2;
   border-radius: 0.5px;
 }
 .hours {
@@ -57,8 +57,8 @@ body {
   height: 5px;
   left: 25%;
   background-color: black;
-  z-index: 2;
-  border-radius: 0.5px;
+  z-index: 3;
+  border-radius: 0.5px; 
 }
 @media screen and (max-width:1000px) {
     .clock-container {
@@ -75,6 +75,6 @@ body {
         margin-right: 0;
         margin-top: 50px;
         font-size: 34px;
-        letter-spacing: 6px;
+        letter-spacing: 5px;
     }
 }
