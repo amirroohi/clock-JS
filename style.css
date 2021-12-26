@@ -66,10 +66,15 @@ body {
         justify-content: center;
     }
     .clock-surface {
+      width: 250px;
+      height: 250px;
         margin-left: 0;
     }
     .clock{
+      width: 250px;
         margin-right: 0;
         margin-top: 50px;
+        font-size: 34px;
+        letter-spacing: 6px;
     }
 }
